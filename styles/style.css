@@ -451,6 +451,10 @@
   font-size: 18px;
 
   font-weight: normal;
+
+  text-decoration: none;
+
+  color: white;
 }
 
 .footer__column-link a {
