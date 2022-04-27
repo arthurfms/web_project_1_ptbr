@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+<!-- arrumar espaçamentos -->
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
 
     <title>Aprendendo a aprender</title>
   </head>
@@ -16,21 +17,21 @@
     <div class="page">
       <header class="header">
         <img
-          src="./images/logo_place_header.png"
+          src="./images/header/logo_place_header.png"
           alt="logo yandex"
           class="logo logo_place_header"
         />
 
         <h1 class="header__title">Aprendendo a aprender</h1>
 
-        <h2 class="header__subtitle">
+        <p class="header__subtitle">
           As técnicas de aprendizado mais eficazes que você pode aplicar ao seu
           cotidiano.
           <a class="header__link" href="#">Saiba mais →</a>
-        </h2>
+        </p>
 
         <img
-          src="./images/header-image.png"
+          src="./images/header/header-image.png"
           alt="Arte de pessoa parada no topo de uma montanha"
           class="header__main-illustration"
         />
@@ -75,6 +76,129 @@
               </p>
             </div>
           </div>
+        </section>
+
+        <section class="techniques">
+          <h2 class="section-title">Aprender Técnicas</h2>
+
+          <h3 class="section-subtitle">
+            As Cinco estratégias de Barbara Oakley
+          </h3>
+
+          <div class="cards">
+            <div class="cards__item">
+              <img
+                src="./images/techniques/cards-attention.png"
+                class="cards__image"
+                alt="Livro '101 essays that will change the way you think' de Brianna Wiest"
+              />
+              <h4 class="cards__title">As Duas Maneiras de Pensar</h4>
+              <p class="cards__description">
+                Uma compreensão profunda surge da capacidade de alternar entre o
+                pensamento difuso e o focado.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/techniques/cards-recall.png"
+                class="cards__image"
+                alt="Fotografia de uma estátua de um menino exposta em uma galeria"
+              />
+              <h4 class="cards__title">Recordar</h4>
+              <p class="cards__description">
+                Melhorar sua capacidade de para recordar pequenas informações
+                importantes ajuda a conectar diferentes partes do cérebro.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/techniques/cards-interleaving.png"
+                class="cards__image"
+                alt="Fotografia da parte interior do memorial de 9 de setembro, em NY"
+              />
+              <h4 class="cards__title">Intecalar</h4>
+              <p class="cards__description">
+                Quando você aprende diferentes habilidades ao mesmo tempo, elas
+                fortalecem umas às outras.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/techniques/cards-question.png"
+                class="cards__image"
+                alt="Imagem de uma pessoa sozinha dentro de uma grande sala branca"
+              />
+              <h4 class="cards__title">Questões</h4>
+              <p class="cards__description">
+                Quando estiver escutando seu professor, pense em uma boa
+                pergunta, algo que você realmente gostaria de saber.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                src="./images/techniques/cards-competence.png"
+                class="cards__image"
+                alt="Imagem de uma mão segurando alguns livros"
+              />
+              <h4 class="cards__title">Ilusão da Competência</h4>
+              <p class="cards__description">
+                Teste a si mesmo, anote, fale com outra pessoa e repita o
+                processo de diferentes situações. Somente assim você vai ter
+                certeza de que entendeu alguma coisa.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="video">
+          <h2 class="section-title">Conversas TED</h2>
+
+          <h3 class="section-subtitle">Para os amantes da procrastinação</h3>
+          <div class="video__iframes">
+            <iframe
+              width="515"
+              height="316"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allowfullscreen
+              class="video__iframe"
+            ></iframe>
+            <iframe
+              width="515"
+              height="316"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              allowfullscreen
+              class="video__iframe"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">A história de Barbara Oakley.</h2>
+
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                A matemática não veio naturalmente para Barbara na infância. Ela
+                se identificava mais com ciências humanas, e que não era muito
+                brilhante nisso. Com o objetivo de se especializar em
+                linguística, após terminar seus estudos, ela se alistou no
+                Exército, que a enviou para aprender russo. Após vários anos de
+                serviço, tornando-se capitã, Barbara deixou o Exército e decidiu
+                estudar engenharia. Foi nesta época que ela desenvolveu a
+                metodologia de aprendizagem, pois precisou reprogramar seu
+                cérebro para um tipo diferente de aprendizagem. Quando algo não
+                ocorre naturalmente, então é preciso trabalhar duro para obter o
+                conhecimento que outras pessoas podem obter rapidamente, dando
+                assim uma visão mais profunda e abrangente do assunto.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feynman">
+          <h2 class="feynman__title">A Técnica de Feynman</h2>
+          <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+          <p class="feynman__link"><a href="#">Mais →</a></p>
         </section>
 
         <section class="digits">
@@ -156,10 +280,28 @@
           </ul>
         </section>
 
-        <section class="feynman">
-          <h2 class="feynman__title">A Técnica de Feynman</h2>
-          <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
-          <p class="feynman__link"><a href="#">Mais →</a></p>
+        <section class="khan">
+          <div class="khan__container">
+            <h2 class="khan__author">Salman Khan</h2>
+            <h3 class="khan__title">The One World Schoolhouse</h3>
+            <p class="khan__quote">
+              A paixão e inovação de Sal Khan é transformar o aprendizado para
+              milhões de estudantes no mundo todo. O livro The One World
+              Schoolhouse é uma leitura obrigatória para quem quer melhorar a
+              educação e que os estudantes habilidades e conhecimentos
+              necessários na escola, na carreira, e na vida em geral.
+            </p>
+            <p class="khan__quote-author">George Lucas</p>
+            <p class="khan__quote-author-subline">Diretor</p>
+            <div class="khan__book-container">
+              <img
+                class="khan__book-pic"
+                src="./images/khan/khan-book-2.png"
+                alt="Capa do livro 'The One World Schoolhouse' de Salman Khan"
+              />
+              <p class="khan__buy-link"><a href="#">Comprar →</a></p>
+            </div>
+          </div>
         </section>
 
         <section class="kaufman">
@@ -254,10 +396,45 @@
           </ul>
 
           <img
-            src="./images/kaufman-triangle.svg"
+            src="./images/kaufman/kaufman-triangle.svg"
             alt="blue triangle"
             class="kaufman__triangle"
           />
+        </section>
+
+        <section class="resources">
+          <h2 class="section-title">Recursos úteis</h2>
+
+          <h3 class="section-subtitle">
+            Material adicional sobre técnicas e hacks de aprendizagem.
+          </h3>
+
+          <div class="resources__logo-zone">
+            <a href="https://ed.ted.com/"
+              ><img
+                class="resources__logo"
+                src="./images/resources/resources-tedED.png"
+                alt="Logo do site TedED"
+            /></a>
+            <a href="https://medium.com/"
+              ><img
+                class="resources__logo"
+                src="./images/resources/resources-Medium.png"
+                alt="Logo do site Medium"
+            /></a>
+            <a href="https://www.dezeen.com/"
+              ><img
+                class="resources__logo"
+                src="./images/resources/resources-dezeen.png"
+                alt="Logo do site DeZeen"
+            /></a>
+            <a href="https://www.goodreads.com/"
+              ><img
+                class="resources__logo"
+                src="./images/resources/resources-goodreads.png"
+                alt="Logo do site GoodReads"
+            /></a>
+          </div>
         </section>
       </main>
 
@@ -265,7 +442,7 @@
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <img
-              src="./images/logo_place_footer.png"
+              src="./images/footer/logo_place_footer.png"
               alt="logo yandex"
               class="logo logo_place_footer"
             />
@@ -295,7 +472,7 @@
             <h2 class="footer__column-heading">Mídia social</h2>
             <a class="footer__column-link" href="#">
               <img
-                src="./images/facebook_white.svg"
+                src="./images/footer/facebook_white.svg"
                 alt="small facebook logo"
                 class="footer__social-icons"
               />
@@ -303,7 +480,7 @@
             </a>
             <a class="footer__column-link" href="#">
               <img
-                src="./images/instagram_white.svg"
+                src="./images/footer/instagram_white.svg"
                 alt="small instagram logo"
                 class="footer__social-icons"
               />
